@@ -2,5 +2,5 @@
 while [ 1 ];
 do
   scrapy crawl craig;
-  sleep 60;
+  sleep 600;
 done
