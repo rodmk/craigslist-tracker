@@ -1,0 +1,17 @@
+mail:
+  from: sender@domain.com
+  to: recipient@domain.com
+  host: localhost
+  port: 25
+  user: username
+  pass: password
+  tls: Yes
+  ssl: Yes
+
+searches:
+  - http://sfbay.craigslist.org/search/?areaID=1&subAreaID=&query=chair&catAbb=sss
+  - http://sfbay.craigslist.org/search/?areaID=1&subAreaID=&query=couch&catAbb=sss
+
+output:
+  tmp: craigslist.tmp
+  log: craigslist.log
