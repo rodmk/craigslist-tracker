@@ -10,3 +10,4 @@ class CraigslistItem(Item):
     # name = Field()
     title = Field()
     link = Field()
+    body = Field()

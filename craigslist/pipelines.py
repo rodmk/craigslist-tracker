@@ -35,5 +35,5 @@ class CraigslistPipeline(object):
     self.mailer.send(
       to=self.mailto,
       subject="[Craigslist] %s" % item['title'],
-      body=item['link'],
+      body="%s\n\n%s" % (item['link'], item['body']),
     )
