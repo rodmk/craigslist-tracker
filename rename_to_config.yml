@@ -12,6 +12,9 @@ searches:
   - http://sfbay.craigslist.org/search/?areaID=1&subAreaID=&query=chair&catAbb=sss
   - http://sfbay.craigslist.org/search/?areaID=1&subAreaID=&query=couch&catAbb=sss
 
+log:
+  tofile: Yes # If No, logging goes to stdout/stderr
+  logfile: craigslist.log
+
 output:
   tmp: craigslist.tmp
-  log: craigslist.log

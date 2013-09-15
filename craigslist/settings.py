@@ -21,7 +21,8 @@ ITEM_PIPELINES = [
 ]
 
 LOG_LEVEL = 'INFO'
-LOG_FILE = config['output']['log']
+if config['log']['tofile']:
+	LOG_FILE = config['log']['logfile']
 
 # SPIDER SETTINGS
 SEARCH_URLS = config['searches']
